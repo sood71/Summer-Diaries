@@ -1,0 +1,177 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; /* Light cream background */
+    color: #800000; /* Dark maroon font color */
+}
+
+/* Horizontal Rule */
+hr {
+    border: 1px solid #800000; /* Dark maroon */
+    margin: 20px 0;
+}
+
+/* Pragraph Spacing */
+p {
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Header */
+header {
+    background: #800000; /* Dark maroon */
+    color: #FFD700; /* Gold */
+    padding: 20px;
+    text-align: left;
+}
+
+/* Navigation */
+nav {
+    background: #FFD700; /* Gold */
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #800000; /* Dark maroon */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #FFF5E1; /* Light cream */
+}
+/* External Links */
+a.external {
+    color: #800000; /* Dark maroon */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.external:hover {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+}
+
+/* Content */
+main {
+    padding: 20px;
+    background: #FFF5E1; /* Light cream */
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background: #800000; /* Dark maroon */
+    color: #FFD700; /* Gold */
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #800000; /* Dark maroon */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #FFD700; /* Gold */
+    color: #800000; /* Dark maroon */
+}
+
+/* Lists */
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
+
+/* Form */
+form {
+    background: #FFF5E1; /* Light cream */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #800000; /* Dark maroon */
+    border-radius: 5px;
+}
+
+button {
+    background: #800000; /* Dark maroon */
+    color: #FFD700; /* Gold */
+    cursor: pointer;
+    text-align: left;
+}
+
+button:hover {
+    background: #FFD700; /* Gold */
+    color: #800000; /* Dark maroon */
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: center; /* Keeps images side by side */
+    gap: 20px; /* Adds space between images */
+    padding-top: 10px; /* Ensures images are right below the <hr> */
+}
+
+.image-container img {
+    width: 300px; /* Ensures same width */
+    height: 450px; /* Ensures same height */
+    object-fit: cover; /* Prevents distortion */
+    border-radius: 8px; /* Optional: Smooth edges */
+}
+
+/* Image map container and image map*/
+.image-map-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if needed */
+    width: 100%; /* Ensures it adapts to parent container */
+    margin-top: auto; /* Adds space above */
+}
+
+.image-map {
+    width: 626px; /* Sets width */
+    height: 413px; /* Sets height */
+    border: 3px solid #800000; /* Maroon border */
+    border-radius: 8px; /* Optional rounded edges */
+    display: block; /* Ensures proper rendering */
